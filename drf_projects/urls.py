@@ -23,7 +23,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api/book/', include('books.urls')),
     path('api/todo/', include('todos.urls')),
-    path('post/', include('posts.urls')),
+    path('api/post/', include('posts.urls')),
     path('api-auth/', include('rest_framework.urls')),
     path('api/dj-rest-auth/', include('dj_rest_auth.urls')),
     path('api/dj-rest-auth/registration/', include('dj_rest_auth.registration.urls')),
